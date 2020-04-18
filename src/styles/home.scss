@@ -1,11 +1,12 @@
 .home-container {
+  height: 100%;
   width: 100%;
   padding: 10px;
   // margin: 10px;
   .grid-container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    // display: grid;
+    // justify-content: center;
+    // align-items: center;
     padding: 10px;
 
     // border: 1px solid red;
@@ -45,6 +46,17 @@
 
       }
 
+    }
+  }
+}
+
+@media(max-width: 500px) {
+  .home-container {
+    .grid-container {
+      .flex-direction {
+        display: grid;
+        grid-auto-columns: 1fr;
+      }
     }
   }
 }

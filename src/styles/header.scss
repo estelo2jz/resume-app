@@ -27,7 +27,10 @@
     .header-flex-container {
       display: grid;
       grid-template-columns: 1fr;
+      
       .links-flex-container {
+        display: grid;
+        grid-auto-columns: 1fr;
       }
     }
   }
