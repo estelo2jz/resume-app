@@ -11,13 +11,19 @@ export default class Header extends Component {
 
           <div className="links-flex-container">
             <div className="header-links">
-              <p>linkedin.com/in/estelo-abellanosa-83a335186</p>
+              <p>
+                <a href="https://www.linkedin.com/in/estelo-abellanosa-83a335186" >linkedin.com/in/estelo-abellanosa-83a335186</a>
+              </p>
             </div>
             <div className="header-links">
-              <p>https://estelo-bottega-portfolio.herokuapp.com</p>
+              <p>
+                <a href="https://estelo-bottega-portfolio.herokuapp.com/">https://estelo-bottega-portfolio.herokuapp.com</a>
+              </p>
             </div>
             <div className="header-links">
-              <p>https://github.com/estelo2jz</p>
+              <p>
+                <a href="https://github.com/estelo2jz">https://github.com/estelo2jz</a>
+              </p>
             </div>
           </div>
         </div>
