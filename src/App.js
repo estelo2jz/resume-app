@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <div>
       <Home />
+      test from gitkraken
       </div>
     );
   }
